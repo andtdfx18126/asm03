@@ -1,0 +1,39 @@
+/* hiển thị khi màn hình có chiều rộng dưới 576px */
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #timeline svg {
+    margin-top: 1.5vh;
+  }
+  svg {
+    margin-top: 2.5vh;
+  }
+  h6 {
+    padding-top: 1vh;
+  }
+  h3 {
+    padding-top: 1.5vh;
+    height: 8vh;
+    border-bottom: solid rgba(139, 139, 139, 0.5) 1px;
+  }
+  p {
+    font-size: 12px;
+  }
+  #goal1,
+  #goal2,
+  #goal3 {
+    margin: 0 1vh;
+    border-bottom: solid rgba(139, 139, 139, 0.5) 1px;
+  }
+  #member1,
+  #member2,
+  #member3,
+  #member4 {
+    width: 50%;
+    clear: both;
+  }
+}

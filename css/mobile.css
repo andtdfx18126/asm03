@@ -1,0 +1,111 @@
+/* các cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình có chiều rộng dưới 576px */
+@media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+  #name-lead {
+    font-size: 16px;
+  }
+  #name-sub {
+    font-size: 9px;
+  }
+  #navbar {
+    padding: 5% 10%;
+  }
+  #navbar div {
+    width: 100%;
+  }
+  #avatar {
+    display: none;
+  }
+
+  #muctieu-thongtin p,
+  li {
+    font-size: 14px;
+  }
+  #muctieu-thongtin h4 {
+    font-size: 25px;
+  }
+  .icon-personal-info {
+    padding-top: 30px;
+    color: #199cdb;
+  }
+
+  #duan {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-hidden {
+    display: none;
+  }
+  .flex-footer {
+    background-color: #fcfcfc;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #199cdb;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+  .footer a {
+    display: none;
+  }
+
+  #column1,
+  #column2,
+  #column3,
+  #column4,
+  #column5,
+  #column6 {
+    width: 100%;
+    border: solid 1px #f1f1f1;
+    margin: 2%;
+  }
+  .flex-footer {
+    grid-template-columns: 45px 0px 45px 0px 45px 0px;
+  }
+}
+
+/* ----------------------------------- */
+.span-blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.span-grey {
+  background: #dfdfdf;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.ic-pencil,
+.ic-toolbox,
+.ic-telescope,
+.ic-tools-2,
+.ic-mic {
+  font-size: 40px;
+  height: fit-content;
+  width: fit-content;
+  color: grey;
+  padding-left: 5%;
+}
+i {
+  color: #199cdb;
+}
+/* ========== */
+/* Footer */
+.flex-footer {
+  display: grid;
+
+  height: 60px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
